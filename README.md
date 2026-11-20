@@ -1,9 +1,9 @@
-# Image Screening Notes: Checking Whether a Photo Looks Real or AI-Edited
+# Checking the origin of a suspicious photo
 
-A short technical checklist for buyers, creators, and moderators doing a first-pass check on suspicious images:
+Start with the claim attached to the picture. A genuine photograph can carry the wrong date, location or caption. Look for its earliest publication and compare the surrounding context.
 
-- **Use the highest-quality copy available**: Re-saving or heavily compressing an image in messaging apps removes details that classifiers inspect.
-- **Understand input limits**: Check format (JPEG, PNG, static WebP, or GIF first frame) and size/megapixel limits (e.g., 5 MB / 20 MP) before submission.
-- **Review results cautiously**: Model scores indicate probability patterns rather than absolute proof; combine screening with provenance and context checks.
+- **Keep the original file.** A screenshot or a copy saved by a messaging app may discard details that help identify earlier versions.
+- **Ask what the classifier measured.** Imagefake returns an AI-generated or human-made prediction for the overall still image. It may miss a locally edited region. A confidence score alone cannot establish whether a caption is accurate or a document is authentic.
+- **Compare independent evidence.** Reverse-image search can turn up an older crop or the unedited scene. To verify a receipt or product listing, check with the issuer or ask the seller for an additional original photograph.
 
-You can run a quick online check for [is this photo real](https://imagefake.com/fake-image-detector/) on Imagefake (one free anonymous detection included; account plans available for recurring checks).
+For readers asking “[is this photo real](https://imagefake.com/fake-image-detector/)?”, the linked guide explains what that model output can establish. The first check is free without an account. Supported inputs are JPEG, PNG, static WebP and the first frame of a GIF, up to 5 MB and 20 megapixels.
